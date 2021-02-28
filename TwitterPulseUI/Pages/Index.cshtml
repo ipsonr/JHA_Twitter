@@ -1,0 +1,92 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<section id="wrapper">
+    <header>
+        <div class="title-container">
+            <h1>Tweet Statistics</h1>
+        </div>
+    </header>
+    <main class="content" id="home-content">
+        <section id="tweet-grid">
+            <div id="stats-totals">
+                Total number of tweets received: @Model.TweetStatistics.CountTweetsReceived in @String.Format("{0:###.##}", Model.TweetStatistics.ElapsedTime.TotalSeconds) seconds <br />
+                Average tweets per second: @String.Format("{0:###.##}", Model.TweetStatistics.AverageTweetsPerSecond)<br />
+            </div>
+            <div id="stats-emojis">
+                <h3>Emojis Used in Tweets</h3>
+                Percent of tweets that contains emojis: @String.Format("{0:###.##}", Model.TweetStatistics.PercentageWithEmojis) <br />
+                <div class="container-fluid" style="border: solid 1px black; border-radius: 10px; max-width: 600px; padding: 4px; margin:inherit">
+                    <h4>Top Five Emojis </h4>
+                    <div class="row" style="border-bottom:solid; margin:0">
+                        <div class="col-md-6">Emoji</div>
+                        <div class="col-md-4">Occurrences</div>
+                    </div>
+                    @{ if (Model.TweetStatistics.Top5Emojis != null)
+                        {
+                            foreach (var emoji in Model.TweetStatistics.Top5Emojis)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6">@emoji.Key</div>
+                                    <div class="col-md-4">@emoji.Value</div>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+
+            </div>
+            <br />
+            <div id="stats-hashtags">
+                <h3>Hashtags Used in Tweets</h3>
+                <div class="container-fluid" style="border: solid 1px black; border-radius: 10px; max-width: 600px; padding: 4px; margin:inherit">
+                    @*<div class="container">*@
+                    @*<div class="row-fluid" style="background-color: #f0f0f0; border-top-left-radius: 10px; border-top-right-radius: 10px;">*@
+                    <h4>Top Five Hashtags </h4>
+                    <div class="row" style="border-bottom:solid; margin:0">
+                        <div class="col-md-6">Hashtag</div>
+                        <div class="col-md-4">Occurrences</div>
+                    </div>
+                    @{ if (Model.TweetStatistics.Top5Hashtags != null)
+                        {
+                            foreach (var hashtag in Model.TweetStatistics.Top5Hashtags)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6">#@hashtag.Key</div>
+                                    <div class="col-md-4">@hashtag.Value</div>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+            <br />
+            <div id="stats-urls">
+                <h3>Urls Used in Tweets</h3>
+                Percent of tweets that contain a url: @String.Format("{0:###.##}", Model.TweetStatistics.PercentageWithUrls) <br />
+                Percent of tweets that contain a photo url: @String.Format("{0:###.##}", Model.TweetStatistics.PercentageWithPhotoUrls) <br />
+                <div class="container-fluid" style="border: solid 1px black; border-radius: 10px; max-width: 600px; padding: 4px; margin:inherit">
+                    <h4>Top Five Url Domains </h4>
+                    <div class="row" style="border-bottom:solid; margin:0">
+                        <div class="col-md-6">Domain</div>
+                        <div class="col-md-4">Occurrences</div>
+                    </div>
+                    @{ if (Model.TweetStatistics.Top5UrlDomains != null)
+                        {
+                            foreach (var domain in Model.TweetStatistics.Top5UrlDomains)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6">@domain.Key</div>
+                                    <div class="col-md-4">@domain.Value</div>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </section>
+    </main>
+</section>
