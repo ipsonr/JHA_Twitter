@@ -1,0 +1,20 @@
+"RT @tuskasass: 这就是那个高二的小可爱，小奶狗，是真的超级可爱，又乖，嗯，是我喜欢的。。。 https://t.co/FpjpZJxM8u"
+"RT @driisana: Why she so fire https://t.co/bbSIO5Y6na"
+"RT @KJK_90900: #준규 #JUNKYU #트레저 #TREASURE\nhttps://t.co/wFbW7CQlgN\nhttps://t.co/rJXPcncSZT\nhttps://t.co/g39OUhYnyL\nhttps://t.co/L0vAuCFb1W h…"
+
+{{"data":{"id":"1363700900435435523","text":"@nuckyzuu แงกอดกอดดด"}}
+{"data":{ "id":"1363700900431204352","text":"道民だからこの時期の暑さが違和感で日差しが🌞上海暑いな。夏大丈夫か😅"} }
+{"data":{"id":"1363704956327399424","text":"Grateful is an attitude that makes life easier."}}
+"{\"data\":{\"id\":\"1366213489878994952\",\"text\":\"出会いをあきらめたくないです。マナー違反しませんので。\\n私の望みはDMです。待ってますね\"}}"
+"{\"data\":{\"id\":\"1366213489887309826\",\"text\":\"I miss my barber\"}}"
+"{\"data\":{\"id\":\"1366213489857994758\",\"text\":\"@774FF14 ありがっとん！✨\\n今までにない体験だったのでめちゃ楽しかったです！😏🎶\",\"entities\":{\"mentions\":[{\"start\":0,\"end\":8,\"username\":\"774FF14\"}]}}}"
+"{\"data\":{\"entities\":{\"hashtags\":[{\"start\":168,\"end\":180,\"tag\":\"Modi_MSP_Do\"},{\"start\":182,\"end\":203,\"tag\":\"बिहार_बेरोजगारी_दिवस\"}],\"mentions\":[{\"start\":0,\"end\":9,\"username\":\"prk_0143\"},{\"start\":10,\"end\":25,\"username\":\"Mustak_Malarna\"},{\"start\":26,\"end\":36,\"username\":\"Ms_Marmat\"},{\"start\":37,\"end\":49,\"username\":\"Tribal_Rj29\"},{\"start\":50,\"end\":62,\"username\":\"RAJUUPMAN14\"},{\"start\":63,\"end\":77,\"username\":\"Lucky_meena93\"},{\"start\":78,\"end\":93,\"username\":\"PriyaAmbedkar1\"},{\"start\":94,\"end\":109,\"username\":\"varsha20475929\"},{\"start\":110,\"end\":126,\"username\":\"GanpatSingh1535\"},{\"start\":127,\"end\":139,\"username\":\"Rp_Sattawan\"},{\"start\":140,\"end\":150,\"username\":\"YogeshM39\"},{\"start\":151,\"end\":167,\"username\":\"RaviSha61295214\"}]},\"id\":\"1366213489853784066\",\"text\":\"@prk_0143 @Mustak_Malarna @Ms_Marmat @Tribal_Rj29 @RAJUUPMAN14 @Lucky_meena93 @PriyaAmbedkar1 @varsha20475929 @GanpatSingh1535 @Rp_Sattawan @YogeshM39 @RaviSha61295214 #Modi_MSP_Do \\n#बिहार_बेरोजगारी_दिवस\"}}"
+
+"{\"data\":{\"entities\":{\"urls\":[{\"start\":38,\"end\":61,\"url\":\"https://t.co/iwrr46NHso\",\"expanded_url\":\"https://twitter.com/kamquat/status/1366203664205930496/photo/1\",\"display_url\":\"pic.twitter.com/iwrr46NHso\"}],\"hashtags\":[{\"start\":34,\"end\":37,\"tag\":\"原神\"}],\"mentions\":[{\"start\":3,\"end\":11,\"username\":\"kamquat\"}]},\"id\":\"1366213489891573763\",\"text\":\"RT @kamquat: shady dr baizhu 👁👄👁 \\n#原神 https://t.co/iwrr46NHso\"}}"
+
+"RT @kamquat: shady dr baizhu 👁👄👁 \n#原神 https://t.co/iwrr46NHso"
+
+"{\"data\":{\"entities\":{\"hashtags\":[{\"start\":20,\"end\":27,\"tag\":\"BBB211\"},{\"start\":28,\"end\":34,\"tag\":\"BBB21\"}]},\"id\":\"1366213494081748996\",\"text\":\"Os cambito da pocah #BBB211 #BBB21\"}}"
+
+"{\"data\":{\"entities\":{\"urls\":[{\"start\":21,\"end\":44,\"url\":\"https://t.co/GDnLvFP4lj\",\"expanded_url\":\"https://twitter.com/onechicagoedits/status/1366230843690221571/photo/1\",\"display_url\":\"pic.twitter.com/GDnLvFP4lj\"}],\"mentions\":[{\"start\":3,\"end\":19,\"username\":\"onechicagoedits\"}]},\"id\":\"1366242321524789248\",\"text\":\"RT @onechicagoedits: https://t.co/GDnLvFP4lj\"}}"
+

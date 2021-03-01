@@ -10,10 +10,8 @@ namespace TwitterPulseAPI.Services.Interfaces
     {
         IEnumerable<TweetModel> GetSampleTweets(int numberOfTweets = 0);
         void Add(TweetModel tweetModel);
-        Task<TweetStatisticsModel> PopulateTweets();
+        Task PopulateTweets();
         Task<TweetStatisticsModel> GetStatisticsAsync();
-        //TweetModel Get(int id);//would only be needed if doing full CRUD operations
-        //void Update(TweetModel tweetModel);
-        //void Delete(int id);
+        Task<TweetStatisticsModel> PopulateTweetsAndGetStats();
     }
 }

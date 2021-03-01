@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace TwitterPulseAPI.Models
 {
@@ -37,10 +36,6 @@ namespace TwitterPulseAPI.Models
             get
             {
                 return HashtagsUsed.OrderByDescending(x => x.Value).Take(5).ToDictionary(y => y.Key, z => z.Value);
-                //return HashtagsUsed.OrderByDescending(x => x.Value).ToDictionary(y => y.Key);//.Take(5);
-                //List<Tuple<string, int>> result = new List<Tuple<string, int>>();
-                //foreach (var hashTag in HashtagsUsed.GroupBy(x => x.Item1))
-                //return result.OrderByDescending(x => x.Item2).Take(5);
             }
         }
         public Dictionary<string, int> Top5Emojis // #3 Top emojis in tweets* 

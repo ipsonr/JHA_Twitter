@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TwitterPulseAPI.Services;
+using TwitterPulseAPI.Services.Interfaces;
 
 namespace TwitterPulseUI
 {
@@ -24,6 +26,7 @@ namespace TwitterPulseUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddScoped<ITweetService, InMemoryTweetService > ();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

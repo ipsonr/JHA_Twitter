@@ -24,7 +24,12 @@ namespace TwitterPulseAPI.Services
             throw new NotImplementedException();
         }
 
-        public Task<TweetStatisticsModel> PopulateTweets()
+        public Task PopulateTweets()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TweetStatisticsModel> PopulateTweetsAndGetStats()
         {
             throw new NotImplementedException();
         }
